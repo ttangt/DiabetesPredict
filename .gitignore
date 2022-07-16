@@ -1,0 +1,4 @@
+docker/GUI/venv/*
+docker/GUI/config.json
+docker/GUI/pima-indians-diabetes.csv
+docker/GUI/__pycache__/*
