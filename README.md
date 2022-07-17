@@ -18,15 +18,15 @@ We use Python PyQt5 library to to build a GUI plaform to predict users diabetes 
 
 ### Data Setting
 
-- Sign in Kaggle and save (pima-indians-diabetes.csv)[https://www.kaggle.com/datasets/kumargh/pimaindiansdiabetescsv] to the folder <your-path>/<repository>/docker/GUI
+- Sign in Kaggle and save (pima-indians-diabetes.csv)[https://www.kaggle.com/datasets/kumargh/pimaindiansdiabetescsv] to the folder **your-path**/**repository**/docker/GUI
 
 ### Firebase Setting
 
-- Create a json file to path <your-path>/<repository>/docker/GUI/config.json
+- Create a json file to path **your-path**/<repository>/docker/GUI/config.json
 
-- Signin firebase and create project <your-project>
+- Signin firebase and create project **your-project**
 
-- create admin account "admin@gmail.com" in Authentication page (you may also want to create other user accounts)
+- create admin account **"admin@gmail.com"** in Authentication page (you may also want to create other user accounts)
 
 - Go to realtime database rule page and set the rule
 
@@ -49,7 +49,7 @@ We use Python PyQt5 library to to build a GUI plaform to predict users diabetes 
 }
 ```
 
-- Go to project setting, create a application and copy and paste the firebaseConfig dict from your application to your config.json
+- Go to project setting, create an application. Copy and paste the firebaseConfig from your application config to your config.json
 
 - config.json
 ```
