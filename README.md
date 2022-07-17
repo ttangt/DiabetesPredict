@@ -54,9 +54,9 @@ We use Python PyQt5 library to to build a GUI plaform to predict users diabetes 
 - config.json
 ```
 {
-    "apiKey": "..."
-    "authDomain": "..."
-    "databaseURL": "..."
+    "apiKey": "<your-apiKey>"
+    "authDomain": "<your-authDomain>"
+    "databaseURL": "<your-databaseURL>"
     ...
 }
 ```
