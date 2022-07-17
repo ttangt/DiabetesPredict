@@ -18,7 +18,7 @@ We use Python PyQt5 library to to build a GUI plaform to predict users diabetes 
 
 ### Data Setting
 
-- Sign in Kaggle and save (pima-indians-diabetes.csv)[https://www.kaggle.com/datasets/kumargh/pimaindiansdiabetescsv] to the folder **your-path**/**repository**/docker/GUI
+- Sign in Kaggle and save (pima-indians-diabetes)[https://www.kaggle.com/datasets/kumargh/pimaindiansdiabetescsv] to the folder **your-path**/**repository**/docker/GUI
 
 ### Firebase Setting
 
