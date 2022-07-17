@@ -67,8 +67,8 @@ We use Python PyQt5 library to to build a GUI plaform to predict users diabetes 
 - Install PyQt5 tools
 
 ```
-sudo apt-get install qt5-default
-sudo apt-get install qttools5-dev-tools
+$ sudo apt-get install qt5-default
+$ sudo apt-get install qttools5-dev-tools
 ```
 
 - Go to docker directory
@@ -80,7 +80,7 @@ $ cd <your-path>/<repository>
 - Run virtualenv and install library in virtualenv
 
 ```
-virtualenv venv
+$ virtualenv venv
 ```
 
 ```
