@@ -117,7 +117,7 @@ $ deactivate
 cd <your-path>/<repository>
 ```
 
-- (Make sure **BOTH [pima-indians-diabetes.csv]** and **config.json** in **your-path/repository/GUI**)
+- (Make sure **BOTH pima-indians-diabetes.csv** and **config.json** in **your-path/repository/GUI**)
 
 - Create virtual environment and enter the virtual environment
 
