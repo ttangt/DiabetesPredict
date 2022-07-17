@@ -22,7 +22,7 @@ widget = QtWidgets.QStackedWidget()
 class LoginPage(QDialog):
     def __init__(self):
         super(LoginPage, self).__init__()
-        loadUi(os.path.join("login.ui"), self)
+        loadUi("login.ui", self)
 
         self.signup_btn.clicked.connect(self.goto_signup_page)
         self.passwordfield.setEchoMode(QtWidgets.QLineEdit.Password)
@@ -53,7 +53,7 @@ class LoginPage(QDialog):
 class SignupPage(QDialog):
     def __init__(self):
         super(SignupPage, self).__init__()
-        loadUi(os.path.join("signup.ui"), self)
+        loadUi("signup.ui", self)
         
         self.login_btn.clicked.connect(self.goto_login_page)
         self.signup_btn.clicked.connect(self.process_signup)
@@ -87,7 +87,7 @@ class SignupPage(QDialog):
 class QueryPage(QDialog):
     def __init__(self, login_user, mytimer = None):
         super(QueryPage, self).__init__()
-        loadUi(os.path.join("query.ui"), self)
+        loadUi("query.ui", self)
         self.login_user = login_user
 
         # Set up logging in timer in Query Page
@@ -201,7 +201,7 @@ class QueryPage(QDialog):
 class CasePage(QDialog):
     def __init__(self, login_user, mytimer, action=None):
         super(CasePage, self).__init__()
-        loadUi(os.path.join("case.ui"), self)
+        loadUi("case.ui", self)
         
         self.login_user = login_user
         self.timer = mytimer
@@ -326,7 +326,7 @@ class CasePage(QDialog):
 class DeletePage(QDialog):
     def __init__(self, login_user, mytimer):
         super(DeletePage, self).__init__()
-        loadUi(os.path.join("delete.ui"), self)
+        loadUi("delete.ui", self)
         self.login_user = login_user
         self.timer = mytimer
 
