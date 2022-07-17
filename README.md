@@ -61,9 +61,9 @@ We use Python PyQt5 library to to build a GUI plaform to predict users diabetes 
 }
 ```
 
-### Run locally in Linux
+### Run locally in Ubuntu
 
-- In **Linux OS**
+- In **Ubuntu**
 
 - Go to docker directory
 
