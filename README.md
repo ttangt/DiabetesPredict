@@ -14,7 +14,7 @@ We use Python PyQt5 library to to build a GUI plaform to predict users diabetes 
 
 ## Installation
 
-- Download repository to <your-path> 
+- Download repository to **your-path** 
 
 ### Data Setting
 
@@ -102,7 +102,7 @@ exit
 
 ### Exports to exe in Windows
 
-- Download repository to <your-path>
+- Download repository to **your-path**
 
 - Go to docker directory
 
