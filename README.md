@@ -63,7 +63,7 @@ We use Python PyQt5 library to to build a GUI plaform to predict users diabetes 
 
 ### Run locally in Linux
 
-- In **Linux** OS
+- In **Linux OS**
 
 - Go to docker directory
 ```
@@ -104,7 +104,7 @@ exit
 
 ### Exports to exe in Windows
 
-- In **Windows** OS
+- In **Windows OS**
 
 - Download repository to **your-path**
 
