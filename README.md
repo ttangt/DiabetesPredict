@@ -10,7 +10,7 @@
 
 ## Introduction
 
-We use Python PyQt5 library to to build a GUI plaform to predict users diabetes status from a pretrained multi-class classification model. This model is trainned by using Keras library with the [diatabetes data](https://www.kaggle.com/datasets/kumargh/pimaindiansdiabetescsv). Users need to register and login in the GUI platform. The authentication is provided by firebase authentication system.  Users input their the diabetes status, and they are stored in firebase realdatabase. Users could export their diabetes history into csv. The firebase administration account could also edit their users information. Finally, we use pyinstaller to make the GUI library to be executed in windows environment.
+We use Python PyQt5 library to to build a GUI plaform to predict users diabetes status from a pretrained multi-class classification model. This model is trainned by using Keras library with the [diatabetes data] (https://www.kaggle.com/datasets/kumargh/pimaindiansdiabetescsv). Users need to register and login in the GUI platform. The authentication is provided by firebase authentication system.  Users input their the diabetes status, and they are stored in firebase realdatabase. Users could export their diabetes history into csv. The firebase administration account could also edit their users information. Finally, we use pyinstaller to make the GUI library to be executed in windows environment.
 
 ## Installation
 
@@ -18,7 +18,7 @@ We use Python PyQt5 library to to build a GUI plaform to predict users diabetes 
 
 ### Data Setting
 
-- Sign in Kaggle and save (pima-indians-diabetes)[https://www.kaggle.com/datasets/kumargh/pimaindiansdiabetescsv] to the folder **your-path**/**repository**/docker/GUI
+- Sign in Kaggle and save (pima-indians-diabetes.csv) [https://www.kaggle.com/datasets/kumargh/pimaindiansdiabetescsv] to the folder **your-path**/**repository**/docker/GUI
 
 ### Firebase Setting
 
