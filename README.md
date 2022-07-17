@@ -74,6 +74,10 @@ $ cd <your-path>/<repository>
 - Run virtualenv and install library in virtualenv
 
 ```
+virtualenv venv
+```
+
+```
 $ source ./venv/bin/activate
 ```
 
@@ -103,7 +107,7 @@ $ deactivate
 cd <your-path>/<repository>
 ```
 
-- Create virtual environment and enter the virtualenvironment
+- Create virtual environment and enter the virtual environment
 
 ```
 virtualenv venv
