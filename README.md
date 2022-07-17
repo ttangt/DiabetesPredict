@@ -76,7 +76,7 @@ $ docker build -t diabetes_predict_image .
 ```
 
 ```
-$ docker run -it -d diabetes_predict_container
+$ docker run -it -d --name diabetes_predict_container diabetes_predict_image
 ```
 
 - Enter container and run GUI in virtualenv
@@ -86,7 +86,7 @@ $ docker exec -it diabetes_predict_container bash
 ```
 
 ```
-$ source ./GUI/venv/bin/activate
+$ source ./venv/bin/activate
 ```
 
 ```
