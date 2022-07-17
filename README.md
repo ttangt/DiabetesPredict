@@ -3,8 +3,7 @@
 ## Enviroment
 
 - Ubuntu20.04
-- Docker
-- Python3
+- Python3.8
 - Firebase
 - Windows10
 
@@ -65,6 +64,13 @@ We use Python PyQt5 library to to build a GUI plaform to predict users diabetes 
 
 - In **Ubuntu**
 
+- Install PyQt5 tools
+
+```
+sudo apt-get install qt5-default
+sudo apt-get install qttools5-dev-tools
+```
+
 - Go to docker directory
 
 ```
@@ -86,7 +92,11 @@ $ source ./venv/bin/activate
 ```
 
 ```
-$ python3 ./GUI/main.py
+$ cd ./GUI
+```
+
+```
+$ python3 main.py
 ```
 
 - Quit virtualenv
@@ -107,6 +117,8 @@ $ deactivate
 cd <your-path>/<repository>
 ```
 
+- (Make sure **BOTH [pima-indians-diabetes.csv]** and **config.json** in **your-path/repository/GUI**)
+
 - Create virtual environment and enter the virtual environment
 
 ```
@@ -117,7 +129,11 @@ virtualenv venv
 .\venv\Scripts\activate.bat
 ```
 
-- Install dependencies and export EXE
+- Install dependencies and export python file to EXE
+
+```
+pip3 install -r requirements.txt
+```
 
 ```
 pyinstaller main.spec
