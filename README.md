@@ -18,11 +18,11 @@ We use Python PyQt5 library to to build a GUI plaform to predict users diabetes 
 
 ### Data Setting
 
-- Sign in Kaggle and save **[pima-indians-diabetes.csv](https://www.kaggle.com/datasets/kumargh/pimaindiansdiabetescsv)** to the folder **your-path**/**repository**/docker/GUI
+- Sign in Kaggle and save **[pima-indians-diabetes.csv](https://www.kaggle.com/datasets/kumargh/pimaindiansdiabetescsv)** to the folder **your-path/repository/GUI**
 
 ### Firebase Setting
 
-- Create a json file to path **your-path/repository/docker/GUI/config.json**
+- Create a json file to path **your-path/repository/GUI/config.json**
 
 - Signin firebase and create project **your-project**
 
@@ -66,40 +66,29 @@ We use Python PyQt5 library to to build a GUI plaform to predict users diabetes 
 - In **Linux OS**
 
 - Go to docker directory
-```
-$ cd <your-path>/<repository>/docker
-```
-
-- Build docker image and container
-```
-$ docker build -t diabetes_predict_image .
-```
 
 ```
-$ docker run -it -d --name diabetes_predict_container diabetes_predict_image
+$ cd <your-path>/<repository>
 ```
 
-- Enter container and run GUI in virtualenv
-
-```
-$ docker exec -it diabetes_predict_container bash
-```
+- Run virtualenv and install library in virtualenv
 
 ```
 $ source ./venv/bin/activate
 ```
 
 ```
+# pip3 install -r requirements.txt
+```
+
+```
 $ python3 ./GUI/main.py
 ```
 
-- Quit program and container
-```
-$ deactivate
-```
+- Quit virtualenv
 
 ```
-exit
+$ deactivate
 ```
 
 ### Exports to exe in Windows
@@ -108,16 +97,10 @@ exit
 
 - Download repository to **your-path**
 
-- Go to docker directory
+- Go to repository directory
 
 ```
-cd <your-path>/<repository>/docker
-```
-
-- Install virtualenv
-
-```
-pip3 install virtualenv
+cd <your-path>/<repository>
 ```
 
 - Create virtual environment and enter the virtualenvironment
@@ -142,7 +125,7 @@ pyinstaller main.spec
 mv dist/main.exe GUI/main.exe
 ```
 
-- Double clik GUI/main.exe for run the program
+- Double click GUI/main.exe for run the program
 
 ## Program tutorial
 
