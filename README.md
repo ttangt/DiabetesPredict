@@ -22,7 +22,7 @@ We use Python PyQt5 library to to build a GUI plaform to predict users diabetes 
 
 ### Firebase Setting
 
-- Create a json file to path **your-path**/<repository>/docker/GUI/config.json
+- Create a json file to path **your-path**/**repository**/docker/GUI/config.json
 
 - Signin firebase and create project **your-project**
 
