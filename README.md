@@ -71,7 +71,7 @@ $ sudo apt-get install qt5-default
 $ sudo apt-get install qttools5-dev-tools
 ```
 
-- Go to docker directory
+- Go to repository directory
 
 ```
 $ cd <your-path>/<repository>
