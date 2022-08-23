@@ -1,6 +1,6 @@
 # DiabetesPredict
 
-[image](!https://secureservercdn.net/160.153.137.128/5g2.104.myftpupload.com/wp-content/uploads/2022/07/tutorial1.png)
+![image](https://secureservercdn.net/160.153.137.128/5g2.104.myftpupload.com/wp-content/uploads/2022/07/tutorial1.png)
 
 ## Enviroment
 
