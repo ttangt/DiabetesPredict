@@ -2,6 +2,8 @@
 
 ![image](tutorial1.png)
 
+![image](tutorial2.png)
+
 ## Enviroment
 
 - Ubuntu20.04
